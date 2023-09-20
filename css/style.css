@@ -9,6 +9,11 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* UTILITIES */
 .flex{
   display: flex;
@@ -19,9 +24,45 @@ img {
   margin: 0 auto;
 }
 
+/* HEADER */
+header{
+  height: 5rem;
+  background-color: #ff6900;
+}
+
+.navigation{
+  align-items: center;
+  color: white;
+  padding: 1.5rem 0;
+  flex-direction: row;
+  min-height: 40px;
+  justify-content: space-between;
+}
+
+.gender{
+  list-style-type: none;
+  font-weight: 700;
+}
+
+.gender li{
+  padding-right: 1rem;
+}
+
+.header-logo{
+  width: 10rem;
+}
+
+.login{
+  list-style-type: none;
+}
+
+.login li{
+  padding-left: 1rem;
+}
+
 /* MAIN */
 .wrap{
-  padding-top: 3rem;
+  padding-top: 4rem;
   flex-wrap: wrap;
   justify-content: space-between;
 }
