@@ -15,15 +15,36 @@ img {
 }
 
 .container{
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
 /* MAIN */
 .wrap{
+  padding-top: 3rem;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .col{
+  position: relative;
   width: calc(95% / 3);
+  padding-bottom: 1rem;
+}
+
+/* HOVER IMG */
+.img-view {
+  display: inline-block;
+}
+
+.img-hide {
+  display: none;
+}
+
+.col:hover .img-view {
+  display: none;
+}
+
+.col:hover .img-hide {
+  display: inline-block;
 }
