@@ -156,3 +156,45 @@ header{
   margin: 0 .3rem;
   text-decoration: line-through .1rem;
 }
+
+/* FOOTER */
+footer{
+  background-color: #1a1a1a;
+  min-height: 5rem;
+}
+
+.row{
+  padding: 2.5rem 0;
+  justify-content: space-between;
+  color: white;
+}
+
+/* INFO */
+.main-col h3{
+  font-size: 1.5rem;
+}
+
+.info{
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.info li{
+  padding:.2rem 1rem 0 0;
+}
+
+/* SOCIAL */
+.social-col h3{
+  font-size: 1.5rem;
+}
+
+.social{
+  font-size: 1rem;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.social li{
+  font-size: 2rem;
+  padding:.2rem 1rem 0 0;
+}
