@@ -48,3 +48,70 @@ img {
 .col:hover .img-hide {
   display: inline-block;
 }
+
+/* HEART */
+.heart{
+  position: absolute;
+  top: .8rem ;
+  right: .4rem;
+  background-color: white;
+  color: black;
+  font-size: 1.8rem;
+  text-align: center;
+  min-height: 2rem;
+  min-width: 2rem;
+}
+
+.col:hover .heart{
+  color: red;
+}
+
+/* PROMO */
+
+.badge{
+  position: absolute;
+  bottom: 5.5rem;
+  left: 0;
+  text-align: center;
+  padding: .2rem .4rem;
+  font-size: .8rem;
+  color: white;
+}
+
+.discount{
+  background-color: red;
+}
+
+.sost{
+  background-color: green;
+  left: 2.7rem;
+}
+
+.left-0{
+  left: 0;
+}
+
+
+/* INFO PRICE */
+.info-price p{
+  display: inline-block;
+  color: red;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.merch{
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.info-price h3 {
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.info-price span{
+  font-size: .9rem;
+  margin: 0 .3rem;
+  text-decoration: line-through .1rem;
+}
