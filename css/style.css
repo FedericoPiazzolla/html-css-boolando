@@ -33,6 +33,7 @@ header{
   top: 0 ;
   left: 0;
   width: 100%;
+  z-index: 9999;
 }
 
 .navigation{
@@ -40,7 +41,6 @@ header{
   color: white;
   padding: 1.5rem 0;
   flex-direction: row;
-  min-height: 40px;
   justify-content: space-between;
 }
 
@@ -66,6 +66,9 @@ header{
 }
 
 /* MAIN */
+main{
+  margin-top: 5.5rem;
+}
 .wrap{
   padding-top: 4rem;
   padding-bottom: 4rem;
